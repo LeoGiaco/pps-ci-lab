@@ -8,11 +8,5 @@ repositories {
 }
 
 application {
-    mainClass = "Generator"
-}
-
-tasks {
-    compileJava {
-        options.encoding = "UTF-8"
-    }
+    mainClass.set("Generator")
 }
